@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CustomerRegistrationRequest {
+public class TestCheckResponse {
 
-    private String firstName;
-    private String lastName;
-    private String email;
+    private Boolean isFraud;
 }

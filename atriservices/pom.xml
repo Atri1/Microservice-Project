@@ -10,6 +10,8 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>customer</module>
+    <module>test</module>
+    <module>rick</module>
   </modules>
 
   <name>atriservices</name>
