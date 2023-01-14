@@ -15,6 +15,7 @@ public class TestController {
 
     @GetMapping("/{customerId}")
     public TestCheckResponse isFraudSter(@PathVariable("customerId") Integer customerId){
+        log.info("Fraud check for customer :{}", customerId);
         return new TestCheckResponse(testService.isFraudCustomer(customerId));
     }
 

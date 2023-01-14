@@ -26,7 +26,7 @@ public class CustomerService {
                 customerRegistrationRequest.getEmail());
         customerRepository.saveAndFlush(customer);
         TestCheckResponse testCheckResponse = restTemplate.getForObject
-                ("http://localhost:8081/api/v1/test/{customerId}", TestCheckResponse.class, customer.getId());
+                ("http://TEST/api/v1/test/{customerId}", TestCheckResponse.class, customer.getId());
 
         if(testCheckResponse.getIsFraud()){
             throw new IllegalStateException("The person is fraud");
