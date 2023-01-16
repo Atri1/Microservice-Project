@@ -43,7 +43,7 @@ services:
     networks:
       - spring
 #  eureka-server:
-#    image: amigoscode/eureka-server:latest
+#    image: amigoscodecan you show example what we need ti /eureka-server:latest
 #    container_name: eureka-server
 #    ports:
 #      - "8761:8761"

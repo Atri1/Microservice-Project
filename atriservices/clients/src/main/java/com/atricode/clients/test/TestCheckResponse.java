@@ -1,4 +1,4 @@
-package com.atricode.test;
+package com.atricode.clients.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,6 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TestCheckResponse {
-
     private Boolean isFraud;
 }

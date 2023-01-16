@@ -1,5 +1,6 @@
 package com.atricode.test;
 
+import com.atricode.clients.test.TestCheckResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

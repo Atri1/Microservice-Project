@@ -12,6 +12,8 @@
     <module>customer</module>
     <module>test</module>
     <module>eureka-server</module>
+    <module>notification</module>
+      <module>clients</module>
   </modules>
 
   <name>atriservices</name>
@@ -55,6 +57,10 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
   </dependencies>
 
